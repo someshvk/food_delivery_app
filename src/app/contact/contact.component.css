@@ -1,0 +1,24 @@
+.container
+{
+    height: 569px;
+    background-image: url('../../assets/Images/ContactUsImg.jpg');
+    background-size: cover;
+}
+.contact-section
+{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-info
+{
+    color: black;
+    max-width: 500px;
+    line-height: 65px;
+    padding-left: 50px;
+    font-size: 18px;
+}
+
+

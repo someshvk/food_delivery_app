@@ -1,0 +1,69 @@
+<!-- Add icon library
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="topnav" style="width: stretch;">
+    <i class="fa fa-align-justify"></i>
+    <a class="active" style="margin:5px;" href="#home">Home</a>
+    <a class="active" style="margin:5px;">Sign Up</a> 
+  </div>
+  <div text-align: center></div> 
+<form style="margin:auto;width:500px;" class="border p-4 rounded-3" (ngSubmit)="loginSubmitted()">
+    <div class="container" style="background-color:ivory">
+    <div class="colm-logo">
+        <img src="/assets/images/momos.jpg">
+        <h6>Delicious meals await..</h6>
+    </div>
+    <br>
+<main>
+    <div class="row g-0">
+        <div class="col-center p-2 mb-3 bg-light" style="background-color:ivory">
+            <span class="fs-3">Log In Here </span>
+        </div>
+    </div>
+</main>
+    <div class="row">
+        <div class="col mb-3">
+            <label for="email" class="form-label"></label> 
+            <input type="email" placeholder="Email Id" class="form-control" id="email" formControlName="email">
+            <div class="form-text text-danger" *ngIf="Email.errors?.['required'] && (Email.dirty || Email.touched)">
+                Email is required
+            </div>
+            <div class="form-text text-danger" *ngIf="Email.errors?.['email'] && (Email.dirty || Email.touched)">
+                Email is invalid
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col mb-3">
+            <label for="pwd" class="form-label"></label>
+            <input type="password" placeholder="Password" class="form-control" id="pwd" formControlName="pwd">
+        </div>
+        <div class="form-text text-danger" *ngIf="PWD.errors?.['required'] && (PWD.dirty || PWD.touched)">
+            Password is required
+        </div>
+        <div class="form-text text-danger" *ngIf="PWD.errors?.['minlength'] || PWD.errors?.['maxlength'] && (PWD.dirty || PWD.touched)">
+            Password should be 6 to 8 characters long
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6 offset-3">
+            <div class="d-grid">
+                <button type="submit" [disabled]="loginForm.invalid" class="loginbtn">Login</button>
+            </div>
+        </div>
+    </div>
+        <button type="button" class="cancelbtn">Cancel</button>
+        <span class="psw"><a href="#"> Forgot password?</a></span>
+      </div>
+    <div class="footer">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-pinterest"></a>
+        <a href="#" class="fa fa-google"></a>
+    </div>
+    <br>
+    <br>
+</form> -->
+
+<h1>LogIn</h1>
